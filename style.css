@@ -1,0 +1,149 @@
+@import url(https://fonts.googleapis.com/css2?family=Lato:wght@100;200;300;400;500;600;800;900&display=swap);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Lato', sans-serif;
+
+}
+
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+
+/* Header */
+header {
+    padding: 20px 0;
+    background-color: #0f111d;
+}
+
+
+.flex>h1 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+
+select {
+    border: none;
+    background: transparent;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+.profile a {
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+}
+
+
+.profile>a:hover {
+    text-decoration: underline;
+}
+
+
+.profile>button {
+    padding: 9px 66px;
+    background-color: #BFAFF2;
+    border: none;
+    border-radius: 15px;
+}
+
+
+.profile>button>a {
+    color: #333;
+}
+
+
+/* Main */
+.main {
+    background-color: #0f111d;
+    color: #fff;
+    height: 80vh;
+}
+
+
+.cards {
+    display: flex;
+    align-items: center;
+    gap: 350px;
+}
+
+
+.card {
+    position: relative;
+    height: 532px;
+}
+
+
+.card--img {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    z-index: 2;
+}
+
+
+.card--title {
+    font-size: 32px;
+    font-weight: 400;
+    width: 293px;
+    text-align: center;
+    padding: 0 0 10px 0;
+}
+
+
+.card--description {
+    font-size: 14px;
+    font-weight: 400;
+    width: 293px;
+    text-align: center;
+}
+
+
+.card--txt {
+    background-color: #232028;
+    width: 325px;
+    border-radius: 32px;
+    padding: 59px 16px 33px;
+    position: absolute;
+    bottom: 0;
+}
+
+
+/* Footer */
+footer {
+    background-color: #0f111d;
+    height: 100px;
+    padding: 20px 0;
+}
+
+
+.networks {
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+}
+
+
+.networks:hover {
+    text-decoration: underline;
+}
